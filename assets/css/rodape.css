@@ -1,0 +1,16 @@
+.rodape {
+    align-items: center;
+    row-gap: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 5rem;
+}
+
+.rodape__link {
+    color: var(--verde);
+}
+
+.rodape__link:hover { 
+    color: var(--verde_escuro);
+}

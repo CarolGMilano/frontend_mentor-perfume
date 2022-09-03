@@ -1,0 +1,21 @@
+@import url("card.css");
+@import url("rodape.css");
+@import url("responsividade.css");
+
+:root {
+    --azul_claro: hsl(228, 12%, 48%);
+    --branco: hsl(0, 0%, 100%);
+    --creme: hsl(30, 38%, 92%);
+    --azul_escuro: hsl(212, 21%, 14%);
+    --verde: hsl(158, 36%, 37%);
+    --verde_escuro: hsl(158, 36%, 20%);
+
+    --fonte_principal: 'Montserrat', serif;
+    --fonte_secundaria: 'Fraunces', serif;
+}
+
+body {
+    background-color: var(--creme);
+    font-family: var(--fonte_principal);
+    min-height: 100vh;
+}

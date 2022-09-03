@@ -1,0 +1,48 @@
+@media screen and (min-width: 500px) {
+    section {
+        align-items: center;
+        display: flex;
+        justify-content: center;
+        
+        height: 95vh;
+    }
+
+    .card {
+        align-items: center;
+        display: flex;
+        
+        max-width: 600px;
+    }
+
+    .card__imagem--mobile {
+        display: none;
+    }
+
+    .card__imagem--desktop {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius: 15px;
+        
+        display: block;
+        
+        max-width: 300px;
+    }
+
+    .container button {
+        background-position: 3rem;
+        transition: .3s;
+    }
+
+    .container button:hover {
+        background-color: var(--verde_escuro);
+        cursor: pointer;
+    }
+
+    .rodape {
+        column-gap: .3rem;
+        flex-direction: row;
+        
+        height: 5vh;
+
+        margin: 0;
+    }
+}
