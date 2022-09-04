@@ -26,7 +26,11 @@
         
         max-width: 300px;
     }
-
+    
+    .container__titulo {
+        font-size: 30px;
+    }
+    
     .container button {
         background-position: 3rem;
         transition: .3s;
